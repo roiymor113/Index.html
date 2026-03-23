@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>חופשת קיץ 2026 - תכנון וילות</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #3498db;
+            --bg: #f4f7f6;
+            --card-bg: #ffffff;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            margin: 0;
+            padding: 20px;
+            color: var(--primary);
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: var(--primary);
+            color: white;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .info-bar {
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border-right: 5px solid var(--accent);
+            font-size: 0.9em;
+        }
+        .grid {
+            display: grid;
+            gap: 20px;
+        }
+        .card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+        .card:active {
+            transform: scale(0.98);
+        }
+        h2 { margin-top: 0; color: var(--accent); font-size: 1.4em; }
+        .details { margin: 10px 0; line-height: 1.6; }
+        .tag {
+            display: inline-block;
+            background: #e1f5fe;
+            color: #01579b;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            margin: 2px;
+        }
+        .btn {
+            display: block;
+            text-align: center;
+            background: var(--accent);
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 10px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        @media (min-width: 600px) {
+            .grid { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>חופשת קיץ 2026 🏖️</h1>
+    <p>26 ביולי - 30 ביולי | 3 לילות</p>
+</header>
+
+<div class="info-bar">
+    <strong>דרישות:</strong> 5 מבוגרים, לפחות 4 חדרי שינה, ג'קוזי, קרוב לים. <br>
+    <strong>תקציב מקסימלי:</strong> 10,000 ₪
+</div>
+
+<div class="grid">
+    <div class="card">
+        <h2>וילה חן - קיסריה</h2>
+        <div class="details">
+            <span class="tag">5 חדרי שינה</span>
+            <span class="tag">ג'קוזי ספא</span>
+            <span class="tag">ליד הים</span>
+            <p>וילה יוקרתית בקיסריה, מושלמת לקבוצה של 5 מבוגרים עם פרטיות מלאה לכל אחד.</p>
+        </div>
+        <a href="https://www.rrr.co.il/showCabin.asp?site=2533" target="_blank" class="btn">לצפייה בוילה</a>
+    </div>
+
+    <div class="card">
+        <h2>וילה דניאלה - קיסריה</h2>
+        <div class="details">
+            <span class="tag">5 חדרי שינה</span>
+            <span class="tag">מרחק הליכה מהים</span>
+            <span class="tag">בריכה + חצר</span>
+            <p>ממוקמת קרוב מאוד לחוף, מציעה חצר גדולה ומרווחת ומתאימה מאוד לתקציב.</p>
+        </div>
+        <a href="https://www.villa.co.il/villas/villa-daniela/" target="_blank" class="btn">לצפייה בוילה</a>
+    </div>
+
+    <div class="card">
+        <h2>וילה על הים - ראשון לציון</h2>
+        <div class="details">
+            <span class="tag">6 חדרי שינה</span>
+            <span class="tag">ג'קוזי חיצוני</span>
+            <span class="tag">חוף ראשון</span>
+            <p>וילה גדולה במיוחד במיקום נדיר בראשון לציון, מרחק דקות ספורות מקו המים.</p>
+        </div>
+        <a href="https://www.villa4u.com/villa_details.asp?id=1733" target="_blank" class="btn">לצפייה בוילה</a>
+    </div>
+
+    <div class="card">
+        <h2>פנטהאוז לגון - נתניה</h2>
+        <div class="details">
+            <span class="tag">4 חדרי שינה</span>
+            <span class="tag">ג'קוזי זרמים</span>
+            <span class="tag">קו ראשון לים</span>
+            <p>אופציה מודרנית עם נוף פנורמי מדהים לים ו-4 חדרים מרווחים.</p>
+        </div>
+        <a href="https://www.booking.com" target="_blank" class="btn">חפש ב-Booking</a>
+    </div>
+</div>
+
+<footer style="text-align: center; margin-top: 40px; font-size: 0.8em; color: #888;">
+    נוצר עבור Roiy | תכנון חופשה 2026
+</footer>
+
+</body>
+</html>
